@@ -4,6 +4,8 @@
 #include <stack>
 #include <omp.h>
 
+// g++ -fopenmp filename.cpp -o filename
+
 using namespace std;
 
 class Graph {

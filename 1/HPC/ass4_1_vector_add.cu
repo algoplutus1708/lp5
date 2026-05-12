@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// nvcc -o filename filename.cu
+
 /* ================= CUDA KERNEL ================= */
 
 __global__ void addVectors(int* A, int* B, int* C, int n)
